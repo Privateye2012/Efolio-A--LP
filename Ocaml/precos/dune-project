@@ -1,0 +1,20 @@
+(lang dune 3.15)
+
+(name precos)
+
+(generate_opam_files true)
+
+(source
+ (github username/reponame))
+
+(authors "Nilde Carvalhais")
+
+(package
+ (name precos)
+ (synopsis "A short synopsis")
+ (description "A longer description")
+ (depends ocaml dune)
+ (tags
+  (loja mago)))
+
+; See the complete stanza docs at ../../README.md
